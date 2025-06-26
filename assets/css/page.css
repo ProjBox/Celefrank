@@ -700,6 +700,11 @@ section,
   margin-right: 0;
 }
 
+.glightbox-container .ginner-container{
+
+  background: #495057cc !important;
+}
+
 @media (max-width: 575px) {
   .projects .portfolio-filters li {
     font-size: 14px;

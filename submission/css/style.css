@@ -1,0 +1,142 @@
+body {
+  background: white;
+  background-color: white;
+
+  font-family: 'Open Sans',Arial,sans-serif;
+}
+
+section {
+
+  font-family: 'Open Sans',Arial,sans-serif;
+}
+
+#card {
+  position: relative;
+  width: 320px;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
+  font-family: 'Open Sans',Arial,sans-serif;
+}
+
+#upper-side {
+  padding: 2em;
+  background-color: #44436E;
+  display: block;
+  color: #fff;
+  /*border-top-right-radius: 8px;
+  border-top-left-radius: 8px;*/
+}
+
+#checkmark {
+  font-weight: lighter;
+  fill: #fff;
+  margin: -3.5em auto auto 20px;
+}
+
+#status {
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1em;
+  margin-top: -.2em;
+  margin-bottom: 0;
+}
+
+#lower-side {
+  padding: 2em 2em 5em 2em;
+  background: #eae8dc;
+  display: block;
+  /*border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;*/
+}
+
+#message {
+  margin-top: -.5em;
+  color: #000000;
+  letter-spacing: 1px;
+}
+
+#contBtn {
+  position: relative;
+  top: 1.5em;
+  text-decoration: none;
+  background: #21174a;
+  color: #fff;
+  margin: auto;
+  padding: 0.6em 1em;
+  font-size: 15px;
+  /*-webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+  -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);*/
+  box-shadow:0px 15px 30px rgb(14 6 46 / 24%);
+ /* border-radius: 25px;*/
+  -webkit-transition: all .4s ease;
+		-moz-transition: all .4s ease;
+		-o-transition: all .4s ease;
+		transition: all .4s ease;
+
+}
+
+#contBtn:hover {
+  /*-webkit-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);
+  -moz-box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.41);*/
+  box-shadow: rgb(33 23 74 / 39%);
+  -webkit-transition: all .4s ease;
+		-moz-transition: all .4s ease;
+		-o-transition: all .4s ease;
+		transition: all .4s ease;
+}
+
+#contBtn:focus {
+    background-color: transparent;
+    color: #21174a;
+    border: 2px solid #21174a80;
+    box-shadow: 0 0 0 0.2rem #21174a96;
+}
+
+.social {
+
+  max-width: 40px;
+  padding: 4px;
+  border: 3.5px solid transparent;
+  box-shadow: 0px 15px 30px rgb(14 6 46 / 24%);
+
+}
+
+.social:hover {
+
+    border-color: #21174a61;
+    border-radius: 3px;
+    
+
+}
+
+.social:focus {
+
+    background-color: #21174a38;
+    color: #21174a;
+    border: 2px solid #21174a6b;
+    box-shadow: 0 0 0 0.2rem #21174a8f;
+    border-radius: 3px;
+
+}
+
+/*.linka:focus {
+    width: 40px;
+    border: 2px solid #21174a6b;
+    box-shadow: 0 0 0 0.2rem #21174a8f;
+    border-radius: 3px;
+}*/
+
+
+@media only screen and (max-width: 550px) { 
+
+.social {
+
+  max-width: 30px;
+
+}
+
+      }
+
+

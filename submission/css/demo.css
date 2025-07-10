@@ -119,6 +119,10 @@ h2 span {
     margin: 0 auto;
 	text-align:center;
 }
+.rt-heading h3{
+
+	color: #44436e;
+}
 .Scriptcontent{
 	line-height:28px;	
 }

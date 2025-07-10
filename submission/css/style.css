@@ -75,6 +75,8 @@ section {
 		-o-transition: all .4s ease;
 		transition: all .4s ease;
 
+    border-radius: 5px;
+
 }
 
 #contBtn:hover {
